@@ -1,0 +1,83 @@
+@import url(framework.css);
+
+.content-top{
+    background-color: #E17B32;
+}
+.big-txt{
+    font-size: 30px;
+    font-weight: bold;
+}
+.little-txt{
+    font-size: 18px;
+}
+.content-top-left div{
+    width: 50%;
+    justify-content: left;
+    gap: 20px;
+}
+.content-top-left button{
+    width: 50%;
+    cursor: pointer;
+    border: 0;
+    line-height: 1.5;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: black;
+}
+.content-top-left button:hover{
+    background-color: white;
+    color: black;
+}
+.content-middle{
+    background-color: #ffab6e;
+}
+.content-middle h1{
+    margin: 20px 0 0 0;
+}
+.content-middle h3{
+    margin: 0 0 20px 0;
+}
+.content-middle h4{
+    margin: 10px 0 10px 0;
+}
+.content-middle button{
+    width: 50%;
+    cursor: pointer;
+    border: 0;
+    line-height: 1.5;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.content-middle button:hover{
+    background-color: white;
+    color: black;
+}
+.content-middle > div{
+    width: 70%;
+    gap: 35px;
+}
+.texte{
+    gap: 20px;
+}
+.content-middle ul{
+    list-style-type: disc;
+}
+.logo{
+    width: 120px;
+}
+.content-bottom{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.content-bottom > div{
+    gap: 10%;
+}

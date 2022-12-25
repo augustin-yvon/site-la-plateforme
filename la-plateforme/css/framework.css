@@ -1,0 +1,85 @@
+/****************************HEADER************************/
+header{
+    background-color: #161B22;
+}
+.header-logo a img{
+    width: 350px;
+    padding: 15px;
+}
+.header-nav{
+    padding-right: 4%;
+}
+.menu-element{
+    color: white;
+}
+.header-menu{
+    justify-content: right;
+    gap: 50px;
+}
+
+/****************************FOOTER************************/
+footer{
+    background-color: #161B22;
+}
+.footer-container{
+    color: white;
+}
+.footer-content{
+    gap: 5%;
+    padding: 5vh 0;
+}
+.footer-logo a img{
+    width: 350px;
+    padding: 15px;
+}
+
+/****************************FRAMEWORK************************/
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    list-style-type: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.bold{
+    font-weight: bold;
+}
+
+/*******************FLEX*********************/
+.flex{
+    display: flex;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.flex4{
+    flex: 4;
+}
+.fdc{
+    flex-direction: column;
+}
+.fdr{
+    flex-direction: row;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}

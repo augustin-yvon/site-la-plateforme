@@ -1,0 +1,32 @@
+@import url(framework.css);
+
+.container-home{
+    background-color: #51555b;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 100px;
+    margin: 14px;
+}
+.logo-imp img{
+    width: 250px !important;
+}
+.qui{
+    width: 70%;
+}
+.qui-text{
+    gap: 5%;
+    font-size: 20px;
+}
+.partenaire{
+    width: 70%;
+}
+.partenaire-logo{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logo-imp{
+    gap: 20px;
+}
